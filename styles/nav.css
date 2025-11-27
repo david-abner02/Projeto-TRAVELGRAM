@@ -5,6 +5,7 @@ nav {
 
     line-height: 0;
     padding-block: 20px;
+    font: 16px/150% var(--font-family)
 }
 
 nav ul {

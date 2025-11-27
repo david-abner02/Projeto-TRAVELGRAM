@@ -1,0 +1,15 @@
+footer {
+    background-color: var(--surface-color);
+    font: 14px/150% var(--font-family);
+}
+
+footer .container {
+    display: flex;
+    justify-content: end;
+    padding-block: 24px;
+    gap: 24px;
+}
+
+footer span:nth-child(1) {
+    margin-right: auto;
+}
