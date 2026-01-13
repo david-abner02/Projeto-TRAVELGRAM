@@ -44,3 +44,11 @@ a:hover {
 .bg-surface-color {
     background-color: var(--surface-color);
 }
+
+@media (min-width: 670px) and (max-width: 960px ) {
+    :root {
+        --text-lg: bold 25px/115% var(--font-family);
+        --text-md: 14px/140% var(--font-family);
+
+    }
+}

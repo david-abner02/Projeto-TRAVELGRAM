@@ -25,3 +25,49 @@ nav ul li:last-child img {
 
 }
 
+@media (min-width: 380px) and (max-width: 669px) {
+    nav {
+        font: 12px/125% var(--font-family)
+    }
+
+    #logo img {
+        width: 110px;
+    }
+
+    nav ul {
+        gap: 8px
+    }
+
+    nav ul li:first-child img {
+        width: 18px;
+    } 
+
+    nav ul li:last-child img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 379px) {
+    nav {
+        font: 11px/125% var(--font-family)
+    }
+
+    #logo img {
+        width: 95px;
+    }
+
+    nav ul {
+        gap: 5px
+    }
+
+    nav ul li:first-child img {
+        width: 13px;
+    } 
+
+    nav ul li:last-child img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
